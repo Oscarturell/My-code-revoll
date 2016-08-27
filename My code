@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=1024" />
+      <title>Min enkla hemsida</title>
+
+      <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+      <meta name="author" content="Bartek Szopka" />
+
+      <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+      <link href="css/impress-demo.css" rel="stylesheet" />
+
+      <link rel="shortcut icon" href="favicon.png" />
+  </head>
+  <body class="impress-not-supported">
+    <div class="fallback-message">
+        <p>Din webbläsare<b>stödjer inte min</b> presentation, så du får en förenklad version av min hemsida!.</p>
+        <p>För att få den bästa visuella erfarenheten av min presentation, använd nyast versionerna av <b>Chrome</b>, <b>Safari</b> eller <b>Firefox</b> webbläsarna.</p>
+    </div>
+    <div id="impress">
+       <div id="Intro" class="step slide" data-x="-1000" data-y="-1500">
+            <q>Yo jag heter Oscar! <b>Jag</b> har testat att göra min egna hemsida!</q>
+        </div>
+
+        <<div class="step slide" data-x="0" data-y="-1500">
+            <q>Jag har precis börjat med kodning <strong>Detta är mitt första projekt</strong> Hoppas du <strong>gillar den!</strong>
+        </div>
+
+        <div class="step slide" data-x="1000" data-y="-1500">
+            <q>Ska vi börja med <strong>att visa dig runt?</strong>
+        </div>
+
+        <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+            <span class="try">Här är första delen</span>
+            <h1>Animationer!</h1>
+            <span class="footnote">Gillar du min hemsida hittills? </span>
+        </div>
+
+        <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+            <p>Det är en<strong> presentations hemsida</strong> <br/>
+            inspirerat av <a href="http://prezi.com">prezi.com</a> <br/>
+            och baserat på <strong>alla balla effekter gjorda av CSS3s grymma animationer</strong> i moderna webbläsare.</p>
+        </div>
+
+        <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="5">
+            <p>Hemsidan är gjord för att utveckla ens<b>stora</b> <span class="tankar">tankar</span></p>
+        </div>
+
+        <div id="tiny" class="step present active" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1" style="position: absolute; transform: translate(-50%, -50%) translate3d(2825px, 2325px, -3000px) rotateX(0deg) rotateY(0deg) rotateZ(300deg) scale(1); transform-style: preserve-3d;">
+                <p>och <b>små</b> idéer</p>
+            </div>
+
+        <div id=tep" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+            <p>and <b>tiny</b> ideas</p>        </div>
+
+        <div id=tep" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+            <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+        </div>
+
+        <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+            <p>det enda <b>motståndet</b> är din <b class="imagination">fantasi</b></p>
+        </div>
+
+        <div id="source" class="step" data-x="6500" data-y="2000" data-rotate="20" data-scale="3">
+            <p>Ifall du vill lära dig var jag lärde mig detta:</p>
+            <q><a href="http://github.com/bartaz/impress.js">använd länken!</a>, Glömde nästan att lägga till en star wars karaktär:</q>
+        </div>
+
+        <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+            <p>Oh juste! En sak till...</p>
+        </div>
+
+        <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+            <p><span class="have">har</span> <span class="you">du</span> <span class="noticed">märkt</span> <span class="its">att allt är</span> <span class="in">i</span> <b>3D</b>?</p>
+            <span class="footnote">slå det, om du kan :D!</span>
+        </div>
+
+        <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+        </div>
+
+    </div>
+
+    <div class="hint">
+        <p>Använd mellanslagstangenten, tab tangenten eller piltangenterna för att navigera! </p>
+    </div>
+
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+  </body>
+</html>
